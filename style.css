@@ -27,8 +27,6 @@ nav {
 section {
     position: relative;
     float: left;
-    padding-top: 20px;
-    /* margin: 20px 10px 20px 20px; */
     height: 220px;   
     width: 300px;
     margin: 10px 10px 20px 230px;
@@ -41,20 +39,28 @@ section {
     float: left;
     display: block;
     margin: 10px 100px 20px 0px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     width: 225px;
     height: 220px;
     text-align: center;
     background: #ebebeb;
 }
 /**/
+.article-heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-weight: normal;
+}
+.section-heading {
+    font-weight: normal;
+}
 .article {
-    /* position: absolute; */
     position: relative;
     width: 94%;
-    height: 150px;
+    padding-top: 1px;
+    height: 65%;
     margin: 10px 10px 10px 10px;
-    padding-top: 20px;
     color: #ebebeb;
     background: #777;
 }
@@ -62,7 +68,7 @@ section {
 .article-box1 {
     position: relative;
     width: 93%;
-    margin: 10px 10px 5px 10px;
+    margin: 0px 10px 5px 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bold;
